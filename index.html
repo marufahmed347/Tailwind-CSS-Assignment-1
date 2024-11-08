@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark" id="htmlTag">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>Google IT Support Certificate</title>
 </head>
-<body>
+<body class="bg-white dark:bg-gray-900">
 
     <!--header section-->
 
     <header class="md:mx-14 md:my-4 py-2 px-2">
         <nav class="mx-auto flex items-center justify-between">
 
-            <img class="w-20 md:w-fit" src="img/c4u full logo_2022 1.png" alt="">
+            <img class="w-20 md:w-fit dark:bg-white dark:rounded-sm" src="img/c4u full logo_2022 1.png" alt="">
 
             <div class="">
-                <ul class="flex flex-row items-center gap-1 md:gap-5 text-xs md:text-xl">
+                <ul class="flex flex-row items-center gap-1 md:gap-5 text-xs md:text-xl dark:text-white">
                     <li><a href="">Home</a></li>
                     <li><a href="">About Us</a></li>
                     <li class="text-[#F44335]"><a href="">Upskill</a></li>
@@ -28,8 +28,8 @@
 
                 <div class="bg-[#F44335] md:text-base text-xs md:py-3 py-1 md:px-6 px-1 rounded-md text-white font-semibold transition hover:scale-105 hover:translate-y-1">Register Interest</div>
 
-                <button>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 md:size-10 hover:scale-105 transition">
+                <button id="switch">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 md:size-10 hover:scale-105 transition dark:stroke-white">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
                       </svg>
                 </button>
@@ -40,17 +40,17 @@
 
     <!--hero section-->
 
-    <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-5 bg-[#FAFAFA]">
+    <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-5 bg-[#FAFAFA] rounded-md dark:bg-gray-900 dark:border dark:border-gray-700">
 
         <section class="md:col-span-6 col-span-12 md:ml-8">
 
-            <h5 class="text-xs md:text-xl font-semibold mb-2 md:mb-5">Discover <span class="text-[#F44335]">-</span> Interact <span class="text-[#F44335]">-</span> Engage </h5>
+            <h5 class="text-xs md:text-xl font-semibold mb-2 md:mb-5 dark:text-white">Discover <span class="text-[#F44335]">-</span> Interact <span class="text-[#F44335]">-</span> Engage </h5>
 
-            <h2 class="text-3xl md:text-7xl mb-2 md:mb-10 ">Google <br><span class="text-[#F44335] border-b-[#F44335] border-b-2 leading-snug">IT Support </span><br> Certificate</h2>
+            <h2 class="text-3xl md:text-7xl mb-2 md:mb-10 dark:text-white">Google <br><span class="text-[#F44335] border-b-[#F44335] border-b-2 leading-snug">IT Support </span><br> Certificate</h2>
 
-            <p class="text-xs md:text-xl text-[#072125] mb-2 md:mb-10">This is your path to a career in IT. In this program, you’ll learn in-demand skills with no degree or experience required. </p>
+            <p class="text-xs md:text-xl text-[#072125] mb-2 md:mb-10 dark:text-gray-700">This is your path to a career in IT. In this program, you’ll learn in-demand skills with no degree or experience required. </p>
 
-            <div class="flex items-center gap-5 md:gap-10 mb-5 md:mb-10">
+            <div class="flex items-center gap-5 md:gap-10 mb-5 md:mb-10 dark:text-white">
                 <div>
                     <span class="text-[#00FF84] font-bold pl-1 md:text-xl">438</span> <br>
                     Videos 
@@ -73,9 +73,10 @@
                 </div>
             </div>
 
-           
+            <div class="mb-5 md:mb-10">
                 <button class="bg-[#F44335] px-2 md:px-5 py-1 md:py-3 rounded-md text-white transition hover:scale-105 hover:translate-y-1 mr-4">Sign up</button>
-                <button class="bg-[#FFFFFF] px-2 md:px-5 py-1 md:py-3 rounded-md text-black border transition hover:scale-105 hover:translate-y-1">Learn more</button>
+                <button class="bg-[#FFFFFF] px-2 md:px-5 py-1 md:py-3 rounded-md text-black border transition hover:scale-105 hover:translate-y-1 dark:bg-gray-900 dark:text-white">Learn more</button>
+            </div>
             
 
         </section>
@@ -91,7 +92,7 @@
     <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-5 md:pt-10">
 
         <section class="md:col-span-5 col-span-12 md:ml-8">
-            <p class="text-xs md:text-xl md:border-r md:border-r-[#D1D3D4] md:border-r-1">Pave your path to career success by gaining  a  professional  Google certificate with the support of C4U</p>
+            <p class="text-xs md:text-xl md:border-r md:border-r-[#D1D3D4] md:border-r-1 dark:text-white">Pave your path to career success by gaining  a  professional  Google certificate with the support of C4U</p>
         </section>
 
         <section class="md:col-span-7 col-span-12 md:ml-8">
@@ -103,44 +104,44 @@
 
         <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-10">
 
-            <section class="md:col-span-6 col-span-12 md:ml-8 bg-[#FFFFFF]">
+            <section class="md:col-span-6 col-span-12">
                 
-                <div class="border bg-[#FFFFFF] rounded-md">
-                    <h4 class="text-xl md:text-2xl font-semibold border-b border-b-[#F9CCC7] mx-4 pb-2 pl-5 pt-5">What you will learn</h4>
+                <div class="border bg-[#FFFFFF] dark:bg-gray-900 dark:border-gray-700 rounded-md">
+                    <h4 class="text-xl md:text-2xl font-semibold border-b border-b-[#F9CCC7] mx-4 pb-2 pl-5 pt-5 dark:text-white">What you will learn</h4>
 
                     <div class="flex items-center gap-2 pt-5 mx-5">
                         <img  class="w-10 md:w-fit" src="img/Checkmark.png" alt="">
-                        <p>Gain skills required to succeed in an entry-level IT job</p>
+                        <p class="dark:text-white">Gain skills required to succeed in an entry-level IT job</p>
                     </div>
 
                     <div class="flex items-center gap-2 pt-5 md:pt-10 mx-5">
                         <img  class="w-10 md:w-fit" src="img/Checkmark.png" alt="">
-                        <p> Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</p>
+                        <p class="dark:text-white"> Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</p>
                     </div>
 
                     <div class="flex items-center gap-2 pt-5 md:pt-10 mx-5">
                         <img  class="w-10 md:w-fit" src="img/Checkmark.png" alt="">
-                        <p>Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</p>
+                        <p class="dark:text-white">Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</p>
                     </div>
 
-                    <div class="flex items-center gap-2 pt-5 md:pt-10 pb-5 mx-5">
+                    <div class="flex items-center gap-2 pt-5 md:pt-10 pb-10 mx-5">
                         <img  class="w-10 md:w-fit" src="img/Checkmark.png" alt="">
-                        <p>Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</p>
+                        <p class="dark:text-white">Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</p>
                     </div>
 
                 </div>
             </section>
     
-            <section class="md:col-span-6 col-span-12 md:ml-8 bg-[#FFFFFF]">
+            <section class="md:col-span-6 col-span-12 md:ml-8">
 
-                <div class="border rounded-md">
-                    <img src="img/IT_social 1.png" alt="">
+                <div class="border rounded-md dark:border dark:border-gray-700">
+                    <img class="w-fit rounded-t-md" src="img/IT_social 1.png" alt="">
 
-                    <div class="border bg-[#FFFFFF] rounded-md">
+                    <div class="border dark:border-none bg-[#FFFFFF] dark:bg-gray-900">
 
-                        <h4 class="text-xl md:text-2xl font-semibold border-b border-b-[#F9CCC7] mx-4 pb-2 pl-5 pt-5">Skills you will gain</h4>
+                        <h4 class="text-xl md:text-2xl font-semibold border-b border-b-[#F9CCC7] mx-4 pb-2 pl-5 pt-5 dark:text-white">Skills you will gain</h4>
 
-                        <div class="ml-8 mb-8">
+                        <div class="ml-8 mb-[29px] dark:text-white">
                             <button class="text-xs md:text-[18px] border border-[#F44335] rounded-full mt-5 mr-1 px-2 py-1">Debugging</button>
                             <button class="text-xs md:text-[18px] border border-[#F44335] rounded-full mt-5 mr-1 px-2 py-1">Customer Service</button>
                             <button class="text-xs md:text-[18px] border border-[#F44335] rounded-full mt-2 mr-1 px-2 py-1">Customer Support</button>
@@ -160,67 +161,67 @@
     
         </section>
 
-        <!-- job section -->
+        <!-- skills section -->
     
     
     <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-10">
 
-        <section class="md:col-span-6 col-span-12 md:ml-8 bg-[#FFFFFF] border rounded-md">
+        <section class="md:col-span-6 col-span-12 bg-[#FFFFFF] border rounded-md dark:bg-gray-900 dark:border-gray-700">
 
-            <h4 class="text-xl md:text-2xl font-semibold border-b border-b-[#F9CCC7] mx-4 pb-2 pl-5 pt-5">Skills you will gain</h4>
+            <h4 class="text-xl md:text-2xl font-semibold border-b border-b-[#F9CCC7] mx-4 pb-2 pl-5 pt-5 dark:text-white">Skills you will gain</h4>
 
             <div class="flex gap-5 mt-3 mb-5 pl-8">
 
                 <div class="flex-col mt-3">
                 
-                    <div class="flex ">
+                    <div class="flex gap-2 items-center">
                         <img class="size-5" src="img/Checkmark (1).png">
-                        <p>Database administrator</p>
+                        <p class="dark:text-white">Database administrator</p>
                     </div>
-                    <div class="flex mt-4">
+                    <div class="flex mt-4 gap-2 items-center">
                         <img class="size-5" src="img/Checkmark (1).png">
-                        <p>Tech support specialist</p>
+                        <p class="dark:text-white">Tech support specialist</p>
     
                     </div>
-                    <div class="flex mt-4">
+                    <div class="flex mt-4 gap-2 items-center">
                         <img class="size-5" src="img/Checkmark (1).png">
-                        <p>IT specialist</p>
+                        <p class="dark:text-white">IT specialist</p>
     
                     </div>
-                    <div class="flex mt-4" >
+                    <div class="flex mt-4 gap-2 items-center" >
                         <img class="size-5"  src="img/Checkmark (1).png">
-                        <p>Systems analyst</p>
+                        <p class="dark:text-white">Systems analyst</p>
                     </div>
-                    <div class="flex mt-4">
+                    <div class="flex mt-4 gap-2 items-center">
                         <img class="size-5" src="img/Checkmark (1).png">
-                        <p>Network engineer</p>
+                        <p class="dark:text-white">Network engineer</p>
                     </div>
     
                 </div>
     
                 <div class="flex-col mt-3">
 
-                    <div class="flex">
+                    <div class="flex gap-2 items-center">
                         <img class="size-5" src="img/Checkmark (1).png">
-                        <p>Help desk technician</p>
+                        <p class="dark:text-white">Help desk technician</p>
                     </div>
-                    <div class="flex mt-4">
+                    <div class="flex mt-4 gap-2 items-center">
                         <img class="size-5" src="img/Checkmark (1).png">
-                        <p>IT support spcialist</p>
+                        <p class="dark:text-white">IT support spcialist</p>
         
                     </div>
-                    <div class="flex mt-4">
+                    <div class="flex mt-4 gap-2 items-center">
                         <img class="size-5" src="img/Checkmark (1).png">
-                        <p>IT technician</p>
+                        <p class="dark:text-white">IT technician</p>
         
                     </div>
-                    <div class="flex mt-4">
+                    <div class="flex mt-4 gap-2 items-center">
                         <img class="size-5" src="img/Checkmark (1).png">
-                        <p>Computer user specialist</p>
+                        <p class="dark:text-white">Computer user specialist</p>
                     </div>
-                    <div class="flex mt-4">
+                    <div class="flex mt-4 gap-2 items-center">
                         <img class="size-5" src="img/Checkmark (1).png">
-                        <p>IT assitant </p>
+                        <p class="dark:text-white">IT assitant </p>
                     </div>
 
                 </div>
@@ -228,7 +229,7 @@
             </div>
         </section>
 
-        <section class="md:col-span-6 col-span-12 md:ml-8 bg-[#FFFFFF]">
+        <section class="md:col-span-6 col-span-12 md:ml-8">
             <img  src="img/IT Support 1.png">
         </section>
 
@@ -236,12 +237,12 @@
 
     <!--certificate section-->
 
-    <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-10">
+    <section class="container grid grid-cols-12 mx-auto mb-10 gap-8 md:px-0 px-4 pt-10">
 
-        <section class="col-span-9 md:ml-16 bg-[#FFFFFF] ml-5">
-            <h2 class="text-3xl md:text-5xl font-semibold mb-10">There are 5 Courses in this Professional Certificate</h2>
+        <section class="col-span-9 bg-[#FFFFFF] rounded-md">
+            <h2 class="text-3xl md:text-5xl font-semibold mt-7 mb-10 ml-5">There are 5 Courses in this Professional Certificate</h2>
 
-            <div class="mt-10 md:mt-16">
+            <div class="mt-10 md:mt-16 ml-5 mb-5">
                 <button class="border bg-[#00FF84] rounded-full px-5 py-1 mr-5 mb-2">Course  1</button>
                 <button class="border border-[#232323] rounded-full px-5 py-1 mr-5">Course  2</button>
                 <button class="border border-[#232323] rounded-full px-5 py-1 mr-5">Course  3</button>
@@ -250,7 +251,7 @@
             </div>
         </section>
 
-        <section class="col-span-3 md:ml- bg-[#FFFFFF]">
+        <section class="col-span-3">
             <img class="mt-10 md:mt-0 w-fit" src="img/Group 238902.png" alt="">
         </section>
 
@@ -258,35 +259,35 @@
 
     <!--photo-1 section-->
 
-    <div class="md:mx-32">
+    <div class="md:mx-24 mt-16">
         <img class="w-full h-auto" src="img/Group 238901.png" alt="">
         <img class="w-full h-auto" src="img/Connector Vector.png" alt="">
     </div>
 
     <!--photo-2 section-->
 
-    <div class="md:mx-32">
+    <div class="md:mx-24">
         <img class="w-full h-auto" src="img/Group 238901.png" alt="">
         <img class="w-full h-auto" src="img/Connector Vector (1).png" alt="">
     </div>
 
     <!--photo-3 section-->
     
-    <div class="md:mx-32">
+    <div class="md:mx-24">
         <img class="w-full h-auto" src="img/Group 238901.png" alt="">
         <img class="w-full h-auto" src="img/Connector Vector (1).png" alt="">
     </div>
 
     <!--photo-4 section-->
     
-    <div class="md:mx-32">
+    <div class="md:mx-24">
         <img class="w-full h-auto" src="img/Group 238901.png" alt="">
         <img class="w-full h-auto" src="img/Connector Vector.png" alt="">
     </div>
 
     <!--photo-5 section-->
         
-    <div class="md:mx-32">
+    <div class="md:mx-24">
         <img class="w-full h-auto" src="img/Group 238901.png" alt="">
     </div>
 
@@ -311,7 +312,7 @@
 
     <!--contact section-->
 
-    <section class="container grid grid-cols-12 mx-auto mb-10 gap-8 md:px-0 px-4 pt-5 bg-[#FFFFFF]">
+    <section class="container grid grid-cols-12 mx-auto pb-5 mb-10 gap-8 md:px-0 px-4 pt-5 bg-[#FFFFFF] rounded-md">
         <section class="md:col-span-4 col-span-4 md:ml-8">
             <img src="img/c4u full logo_2022 1.png" alt="">
             <p class="text-[10px] md:text-[16px] text-[#20484F] pt-5">Lebel39</p>
@@ -352,9 +353,17 @@
 
     <!--footer section-->
 
-    <footer class="text-[#20484F] text-center text-xs md:text-xl border-t pt-2 pb-5 w-full">
+    <footer class="text-[#20484F] text-center text-xs md:text-xl border-t pt-2 pb-5 w-full dark:text-white">
         Copyright 2024 Creatives For You LTD
     </footer>
+
+
+    <script>
+        const htmlTag = document.getElementById("htmlTag");
+        document.getElementById("switch").addEventListener("click", function () {
+            htmlTag.classList.toggle("dark");
+        });
+    </script>
 
 </body>
 </html>
